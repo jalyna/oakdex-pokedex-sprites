@@ -1,6 +1,6 @@
 {
   "name": "oakdex-pokedex-sprites",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Pokemon Sprites Gen 1-7",
   "main": "index.js",
   "scripts": {
