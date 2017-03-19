@@ -16,7 +16,7 @@ describe('Sprites', function() {
           p.variations.map(function(v) {
             if(v.image_suffix) {
               var imageName = (pad+p.national_id).slice(-pad.length);
-              var path = './icons/'+ imageName +'-'+ v.image_suffix +'.png';
+              path = './icons/'+ imageName +'-'+ v.image_suffix +'.png';
               console.log(path);
               expect(fs.existsSync(path)).to.equal(true);
             }
@@ -25,11 +25,11 @@ describe('Sprites', function() {
           p.mega_evolutions.map(function(v) {
             var imageName = (pad+p.national_id).slice(-pad.length);
             if(v.image_suffix) {
-              var path = './icons/'+ imageName +'-'+ v.image_suffix +'.png';
+              path = './icons/'+ imageName +'-'+ v.image_suffix +'.png';
               console.log(path);
               expect(fs.existsSync(path)).to.equal(true);
             } else {
-              var path = './icons/'+ imageName +'-mega.png';
+              path = './icons/'+ imageName +'-mega.png';
               console.log(path);
               expect(fs.existsSync(path)).to.equal(true);
             }
