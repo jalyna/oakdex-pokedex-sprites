@@ -24,6 +24,7 @@
   "homepage": "https://github.com/jalyna/oakdex-pokedex-sprites#readme",
   "devDependencies": {
     "expect.js": "^0.3.1",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "oakdex-pokedex": "^0.1.2"
   }
 }
