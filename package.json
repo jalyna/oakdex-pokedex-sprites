@@ -1,0 +1,29 @@
+{
+  "name": "oakdex-pokedex-sprites",
+  "version": "0.0.0",
+  "description": "Pokemon Sprites Gen 1-7",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalyna/oakdex-pokedex-sprites.git"
+  },
+  "keywords": [
+    "Pokemon",
+    "Pokedex",
+    "Sprites",
+    "Images"
+  ],
+  "author": "Jalyna",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/jalyna/oakdex-pokedex-sprites/issues"
+  },
+  "homepage": "https://github.com/jalyna/oakdex-pokedex-sprites#readme",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^3.2.0"
+  }
+}
